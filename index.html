@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CSS stylesheet -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Google Fonts-->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Trirong">
+    <!-- Font Awesome icon library -->
+    <script src="https://kit.fontawesome.com/3dce9717da.js" crossorigin="anonymous"></script>
+    <title>Meal App</title>
+</head>
+<body>
+    <!-- Navbar -->
+       <header>
+            <div class="head">
+                <!-- Fire icon  -->
+                <i class="fa-solid fa-fire fa-beat" style="color: #FFD43B;"></i>
+                <a href="#" id="home">Home</a>
+                <a href="#" id="fav">&#x2764;&#xfe0f; Favourite Meals</a>
+            </div>
+           
+        </header>
+        <!-- Title of webpage -->
+        <h3>Meals</h3>
+
+    <!-- Container for search bar -->
+    <div class="container">
+        <!-- Create a text input for the search bar -->
+        <input type="text" id="search-input" placeholder="Enter meal...">
+        <!-- Create a button to submit the search query -->
+        <button id="search-button"><i class="fa-solid fa-magnifying-glass"></i></button>
+    </div>
+    <!-- Div to hold search results -->
+    <div id="search-results"></div>
+    <!-- external JavaScript file -->
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,186 @@
+/* Set margin and padding to 0 for all elements */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+
+    background-image: url("../bg.jpg");
+    margin: 0px;
+    padding: 0px;
+}
+
+/* Style for header */
+header{
+    display: flex;
+    padding: 5px;
+    margin: 0px;
+    background-color: #282829;
+    filter: blur(0.3px);
+}
+
+/* Style for header links */
+header a{
+    font-family: "Trirong", serif;
+    text-decoration: none;
+    font-size: 30px;
+    margin: 10px;
+    color: #ddd;
+}
+
+/* header links on hover */
+header a:hover{
+    color: grey;
+}
+
+h3{
+    color: #ddd;
+    margin-left: 43%;
+    font-family: "Sofia", sans-serif;
+    font-size: 90px;
+    
+}
+
+/* Style for container */
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #edeef0;
+  border-radius: 30px;
+  padding-left: 10px;
+  margin-bottom: 25px;
+  max-width: 500px;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+
+}
+
+/* Style for input */
+input{
+    flex: 1;
+    border: none;
+    outline: none;
+    background: none;
+    padding: 10px;
+    font-family: "Sofia", sans-serif;
+}
+
+/* Style for button */
+button{
+    border: none;
+    outline: none;
+    padding: 16px 50px;
+    background: #ff5945;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 40px;
+    font-family: "Sofia", sans-serif;
+}
+
+button:hover{
+    color:#ddd;
+    background-color: #282829;
+    animation-delay: 2.6ms;
+}
+
+/* Style for meal containers */
+#search-results{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.meal {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+    margin: 20px;
+    width: 30%;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    
+ 
+}
+
+/* Style for meal images */
+.meal img {
+    width: 70%;
+    max-height: 350px;
+    object-fit: cover;
+    border-radius: 25px;
+}
+
+/* Style for meal headings */
+.meal h2 {
+    margin: 10px 0;
+    font-size: 24px;
+    text-align: center;
+    color: #ddd;
+    font-family: "Trirong", serif;
+}
+
+.meal ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.meal li {
+    margin-bottom: 5px;
+}
+
+.meal button {
+    background-color: #ff5945;
+    border: none;
+    color: #ddd;
+    padding: 10px;
+    margin: 2px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+    font-family: "Trirong", serif;
+}
+
+
+.meal button:hover {
+    /* background: var(--tenne-tawny-dark); */
+    color:#ddd;
+    background-color: #282829;
+    animation-delay: 2.6ms;
+}
+
+.description {
+    display: none;
+}
+  
+.show {
+    display: block;
+}
+
+p{
+    font-size: 20px;
+    margin-left: 10px;
+    word-spacing: 3px;
+    line-height: 35px;
+    text-align: justify;
+    color: white;
+    background-color: black;
+    border-radius: 20px;
+    padding: 5px;
+    font-family: "Trirong", serif;
+    
+}
+
+
