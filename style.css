@@ -38,10 +38,16 @@ header a:hover{
 
 h3{
     color: #ddd;
-    margin-left: 43%;
+    margin-left: 42%;
     font-family: "Sofia", sans-serif;
     font-size: 90px;
     
+}
+h5{
+    color: #ddd;
+    margin-left: 35%;
+    font-family: "Sofia", sans-serif;
+    font-size: 30px;
 }
 
 /* Style for container */
