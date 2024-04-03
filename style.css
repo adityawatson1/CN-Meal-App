@@ -72,7 +72,7 @@ input{
 }
 
 /* Style for button */
-button{
+/* button{
     border: none;
     outline: none;
     padding: 16px 50px;
@@ -88,7 +88,7 @@ button:hover{
     color:#ddd;
     background-color: #282829;
     animation-delay: 2.6ms;
-}
+} */
 
 /* Style for meal containers */
 #search-results{
