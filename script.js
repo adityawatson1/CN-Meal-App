@@ -27,7 +27,7 @@ searchInput.addEventListener('keyup', () => {
     .catch(error => {
       console.error(error);
     });
-  }, 1000);
+  }, 2000);
 });
 
 // Function to display meal items on screen
